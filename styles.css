@@ -1,0 +1,106 @@
+/* This centers ALL content */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding-bottom: 50px;
+    background-color: aliceblue;
+    color:#222;
+  }
+  
+  /* Makes images smaller and centered */
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 500px; /* Change this size if you want */
+    max-width: 90%; /* Makes it flexible on small screens */
+  }
+  
+  /* Styles the captions under images */
+  p {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 30px; /* Space after each caption */
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;              /* activates flexbox */
+  justify-content: center;    /* center horizontally */
+  align-items: center;       /* center vertically */
+  height: 60;
+    padding: 10px 0;
+    border-top: 1px black;
+    font-size: 12px;
+    line-height: 1;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .footer-link {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }  
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    font-family: 'Georgia', serif; /* A little more classic */
+    font-size: 36px;
+    color: darkslategray;
+    text-transform: uppercase; /* Makes it all caps */
+    letter-spacing: 2px; /* Space between letters */
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: darkgreen;
+    text-decoration: underline;
+    margin-top: 40px;  /* Adds space before each new chapter */
+    margin-bottom: 10px;
+  }
+
+  .footer-link {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+    margin-top: 20px;
+    line-height: 2;
+  }
+
+  .home-image {
+    width: 600px;   /* or however big you want */
+    max-width: 90%; /* so it's still responsive on small screens */
+    display: block;
+    margin: 20px auto;  /* centers it with space */
+  }
+  
+
+  
